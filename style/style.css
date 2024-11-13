@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.O{
+    position: relative;
+}
+
+.O::after{
+    position: absolute;
+    content: "\1F47D";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.X{
+    position: relative;
+}
+
+.X::after{
+    position: absolute;
+    content: "\1F479";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    line-height: 100px;
+}
